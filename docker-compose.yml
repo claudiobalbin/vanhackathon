@@ -1,0 +1,30 @@
+version: "3"
+services:
+  tad:
+    image: postgres:9.6
+    container_name: "postgres_sensei"
+    environment:
+      - POSTGRES_DB=tadpgweb
+      - POSTGRES_USER=postgres
+      - TZ=GMT
+    volumes:
+      - ".:/docker-entrypoint-initdb.d/"
+      - "./data/postgres:/var/lib/postgresql/data"
+    ports:
+      - 5432:5432
+    networks:
+      - sensei-network
+  dotnet:
+    image: sensei_lab
+    container_name: "sensei_api"
+    build:
+      context: ./sensei_api/sensei_api/
+      dockerfile: Dockerfile
+    ports:
+      - 5003:80
+    networks:
+      - sensei-network
+
+networks: 
+    sensei-network:
+        driver: bridge

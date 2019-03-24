@@ -1,0 +1,14 @@
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/bin/Release/netcoreapp2.2/sensei_api.deps.json
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/bin/Release/netcoreapp2.2/sensei_api.runtimeconfig.json
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/bin/Release/netcoreapp2.2/sensei_api.runtimeconfig.dev.json
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/bin/Release/netcoreapp2.2/sensei_api.dll
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/bin/Release/netcoreapp2.2/sensei_api.pdb
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.csprojAssemblyReference.cache
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.csproj.CoreCompileInputs.cache
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.RazorAssemblyInfo.cache
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.RazorAssemblyInfo.cs
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.AssemblyInfoInputs.cache
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.AssemblyInfo.cs
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.RazorTargetAssemblyInfo.cache
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.dll
+/home/claudio/git/pessoal/vanhackathon/sensei_api/sensei_api/obj/Release/netcoreapp2.2/sensei_api.pdb
