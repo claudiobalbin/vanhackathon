@@ -8,8 +8,7 @@ services:
       - POSTGRES_USER=postgres
       - TZ=GMT
     volumes:
-      - ".:/docker-entrypoint-initdb.d/"
-      - "./data/postgres:/var/lib/postgresql/data"
+      - "./sensei_db.sql:/docker-entrypoint-initdb.d/sensei_db.sql"
     ports:
       - 5432:5432
     networks:
@@ -22,6 +21,19 @@ services:
       dockerfile: Dockerfile
     ports:
       - 5003:80
+    networks:
+      - sensei-network
+  sensei_front:
+    image: node:10.9.0
+    ports:
+      - "80:3000"
+    volumes:
+      - ./sensei_front/sensei_front:/usr/src/app
+    working_dir: /usr/src/app
+    command:
+      - /bin/bash
+      - -c
+      - rm -rf node_modules && yarn install --silent && yarn start
     networks:
       - sensei-network
 
