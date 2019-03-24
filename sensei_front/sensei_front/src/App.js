@@ -29,11 +29,15 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ag-theme-balham" style={{ height: '200px', width: '600px' }} >
-        <AgGridReact
-            columnDefs={this.state.columnDefs}
-            rowData={this.state.rowData}>
-        </AgGridReact>
+      <div>
+        <div style={{textAlign: 'center'}}><h1>SenseiOS</h1></div>      
+        <div className="ag-theme-balham" style={{ height: '200px', margin: '0 auto', width: '50%' }} >
+          <AgGridReact
+              enableSorting={true}
+              columnDefs={this.state.columnDefs}
+              rowData={this.state.rowData}>
+          </AgGridReact>
+        </div>
       </div>
     );
   }
